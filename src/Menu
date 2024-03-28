@@ -1,0 +1,15 @@
+import { React, useState, useEffect } from 'react';
+
+function Menu() {
+    const vegetables = ['Broccoli', 'Spinach', 'Kale']
+
+
+    return (
+        <form>
+            <label name="vegetables">Select a vegetable: </label>
+            {vegetable_options}
+        </form>
+    )
+}
+
+export default Menu
